@@ -20,6 +20,7 @@
     height: 50px;
 }
 
+
 .nav1 {
     color: #000;
     font-family: "ALK Rounded Mtav Med", sans-serif;
@@ -27,6 +28,10 @@
     font-style: normal;
     font-weight: 400;
     margin-right: 63px;
+}
+
+.active {
+    color: #028a0f;
 }
 
 .search_bar input {
@@ -52,6 +57,14 @@ ul {
     display: flex;
     align-items: center;
     margin: 0;
+}
+
+.sec2_maindiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .section_container {
@@ -86,4 +99,223 @@ ul {
         margin-bottom: -40px;
 
     }
+
+    100% {
+        letter-spacing: 0;
+        margin-bottom: -40px;
+    }
+}
+
+.nist {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.div2 {
+    width: 325px;
+    height: 425px;
+    display: flex;
+    margin-top: 102px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.div2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+
+.div2:hover img {
+    transform: scale(1.1);
+}
+
+.card_content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(13,14,32,0.77);
+    transform: translateY(100%);
+    transition: 0.4s ease;
+}
+
+.div2:hover .card_content {
+    transform: translateY(0%);
+}
+
+
+.card_content h2 {
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size:32px;
+    color: #028a0f
+}
+
+.card_content p {
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 16px;
+    color: #f6f6f6;
+    margin: 8px 0px;
+}
+
+.card_content .button_rm {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: #028a0f;
+    color: #fff;
+    font-size: 16px;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+}
+
+.div3 {
+    width: 325px;
+    height: 425px;
+    display: flex;
+    margin-top: 102px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.div3 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+
+.div3:hover img {
+    transform: scale(1.1);
+}
+
+.card_content2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(13,14,32,0.77);
+    transform: translateY(100%);
+    transition: 0.4s ease;
+}
+
+.div3:hover .card_content2 {
+    transform: translateY(0%);
+}
+
+
+.card_content2 h2 {
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size:32px;
+    color: #028a0f
+}
+
+.card_content2 p {
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 16px;
+    color: #f6f6f6;
+    margin: 8px 0px;
+}
+
+.card_content2 .button_rm2 {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: #028a0f;
+    color: #fff;
+    font-size: 16px;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+}
+
+.div4 {
+    width: 325px;
+    height: 425px;
+    display: flex;
+    margin-top: 102px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.div4 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease;
+}
+
+.div4:hover img {
+    transform: scale(1.1);
+}
+
+.card_content3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(13,14,32,0.77);
+    transform: translateY(100%);
+    transition: 0.4s ease;
+}
+
+.div4:hover .card_content3 {
+    transform: translateY(0%);
+}
+
+
+.card_content3 h2 {
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size:32px;
+    color: #028a0f
+}
+
+.card_content3 p {
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 16px;
+    color: #f6f6f6;
+    margin: 8px 0px;
+}
+
+.card_content3 .button_rm3 {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: #028a0f;
+    color: #fff;
+    font-size: 16px;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
 }
