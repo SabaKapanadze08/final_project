@@ -319,3 +319,72 @@ ul {
     letter-spacing: 1.5px;
     margin-top: 10px;
 }
+
+
+.sec3_maindiv {
+    width: 1200x;
+    height: 800px;
+    margin-top: 100px;
+    display: flex;
+}
+
+
+.background_img_div {
+    position: relative;
+    display: flex;
+}
+
+
+.bacground_img_div_p {
+    position: absolute;
+    top: 40%;
+    font-size: 56px;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button_review {
+    position: absolute;
+    top: 100%;
+    font-size: 24px;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #028a0f;
+    border-radius: 30px;
+    letter-spacing: 1px;
+}
+
+.quote_div {
+    width: 1903px;
+    height: 333px;
+    background: #273A47;
+}
+
+.quote {
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-family: "ALK Rounded Mtav Med", sans-serif;;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 119px;
+}
+
+.quote_author {
+    color: #FFF;
+    text-align: center;
+    font-family: "ALK Rounded Mtav Med", sans-serif;;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+    margin-left: 1333px;
+}
