@@ -31,7 +31,7 @@
 }
 
 .active {
-    color: #028a0f;
+    color: #41647a;
 }
 
 .search_bar input {
@@ -46,10 +46,11 @@
     height: 33px;
     flex-shrink: 0;
     background: transparent;
+    border: none;
 }    
 
 nav {
-    display: flex;
+    display: inline-flex;
     align-items: center;
 }
 
@@ -354,7 +355,7 @@ ul {
     text-align: center;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #028a0f;
+    background-color: #273A47;
     border-radius: 30px;
     letter-spacing: 1px;
 }
@@ -387,4 +388,230 @@ ul {
     line-height: normal;
     padding-top: 30px;
     margin-left: 1333px;
+}
+
+footer {
+    width: 1903px;
+    height: 540px;
+    background: #E4E4E4;
+    display: inline-block;
+}
+
+.line1 {
+    margin-left: 44px;
+    padding-top: 35px;
+    display: inline-flex;
+}
+
+.line1_1 {
+    padding-bottom: 37px;
+    display: inline-flex;
+}
+
+.footer_tbcicon {
+    width: 60px;
+    display: inline-block;
+}
+
+footer .line1 .line1_1 .first_child {
+    display: inline-flex;
+    color: #000;
+    font-family: "ALK Rounded Mtav Med", sans-serif;;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+    vertical-align: middle;
+}
+
+.navigation {
+    color: #000;
+    font-family: "ALK Rounded Mtav Med", sans-serif;;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+footer .navigation ol li {
+    padding-top: 17px;
+}
+
+.footer_icon1 {
+    color: #000;
+    font-family: "ALK Rounded Mtav Med", sans-serif;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fa-solid {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.footer_phone_number {
+    display: inline-block;
+    color: #000;
+    font-family: "ALK Rounded Mtav Med", sans-serif;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-right: 29px;
+    padding-top: 32px;
+}
+
+.footer_location {
+    display: inline-block;
+    color: #000;
+    font-family: "ALK Rounded Mtav Med", sans-serif;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 32px;
+}
+
+.line1_help {
+    padding-top: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 383px;
+}
+
+.footer_help {
+    color: #000;
+    font-family: Kaushan Script;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-flex;
+    margin-bottom: 0;
+}
+
+.help_line1_line {
+    padding-top: 4.5px;
+}
+
+.help_line_nav {
+    color: #000;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_help_line {
+    padding-top: 17px;
+}
+
+.line1_contact {
+    padding-top: 10px;
+    padding-left: 183px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.footer_contact_line {
+    color: #000;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 17px;
+}
+
+.line1_icons {
+    padding-left: 80px;
+    font-size: 30px;
+}
+
+.line1_icons_style {
+    padding-left: 26px;
+}
+
+.line2 {
+    padding-left: 54px;
+    display: inline-flex;
+}
+
+.form_submit {
+    display: flex;
+    padding-top: 100px;
+    padding-left: 521px;
+}
+
+.form_submit input[type="email"] {
+    width: 339px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background: #FFF;
+    vertical-align: middle
+}
+
+.form_submit button[type="submit"] {
+    width: 180px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #273A47;
+    color: #FFF;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.form_submit p {
+    color: #000;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 15px;
+}
+
+.form_submit ::placeholder {
+    color: #000;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+/* aboutus.html styles */
+
+.about_us_img  {
+    width: 1150px;
+    height: 700px;
+    display: block;
+}
+
+.about_us_img_div {
+    position: absolute;
+
+}
+
+.about_us_p {
+ top: 50%;
+ left: 50%;
+}
+
+.about_us_p_div {
+    position: relative;
+
 }
