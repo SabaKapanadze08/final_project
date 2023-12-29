@@ -1,1121 +1,1190 @@
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .header_container {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .div1 {
-    display: flex;
-    justify-content: space-between;
-    align-items:  center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .tbclogo {
-    display: flex;
-    width: 130px;
-    height: 50px;
+  display: flex;
+  width: 130px;
+  height: 50px;
 }
 
-
 .nav1 {
-    color: #000;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    margin-right: 63px;
+  color: #000;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 63px;
 }
 
 .active {
-    color: #41647a;
+  color: #41647a;
 }
 
 .search_bar input {
-    border-radius: 40px;
-    background: rgba(217, 217, 217, 0.50);
-    padding-left: 11px;
-    
+  border-radius: 40px;
+  background: rgba(217, 217, 217, 0.5);
+  padding-left: 11px;
 }
 
 .search_bar button {
-    width: 33px;
-    height: 33px;
-    flex-shrink: 0;
-    background: transparent;
-    border: none;
-}    
+  width: 33px;
+  height: 33px;
+  flex-shrink: 0;
+  background: transparent;
+  border: none;
+}
 
 nav {
-    display: inline-flex;
-    align-items: center;
+  display: inline-flex;
+  align-items: center;
 }
 
 ul {
-    display: flex;
-    align-items: center;
-    margin: 0;
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
 .sec2_maindiv {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .section_container {
-    display: flex;
-    justify-content: center;
-    padding-top: 96px;
+  display: flex;
+  justify-content: center;
+  padding-top: 96px;
 }
 
 .p1 {
-    color: #000;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    animation: text 3s infinite;
+  color: #000;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  animation: text 3s infinite;
 }
 
 @keyframes text {
-    0% {
-        color: black;
-        margin-bottom: -40px;
-    }
+  0% {
+    color: black;
+    margin-bottom: -40px;
+  }
 
-    30% {
-        letter-spacing: 25px;
-        margin-bottom: -40px;
-    }
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
 
-    85% {
-        letter-spacing: 8px;
-        margin-bottom: -40px;
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
 
-    }
-
-    100% {
-        letter-spacing: 0;
-        margin-bottom: -40px;
-    }
+  100% {
+    letter-spacing: 0;
+    margin-bottom: -40px;
+  }
 }
 
 .nist {
-    width: 1200px;
-    display: flex;
-    justify-content: space-around;
-    
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .div2 {
-    width: 325px;
-    height: 425px;
-    display: flex;
-    margin-top: 102px;
-    position: relative;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-    cursor: pointer;
-    overflow: hidden;
+  width: 325px;
+  height: 425px;
+  display: flex;
+  margin-top: 102px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .div2 img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: all 0.4s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease;
 }
 
 .div2:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .card_content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(13,14,32,0.77);
-    transform: translateY(100%);
-    transition: 0.4s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(13, 14, 32, 0.77);
+  transform: translateY(100%);
+  transition: 0.4s ease;
 }
 
 .div2:hover .card_content {
-    transform: translateY(0%);
+  transform: translateY(0%);
 }
 
-
 .card_content h2 {
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size:32px;
-    color: #028a0f
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 32px;
+  color: #028a0f;
 }
 
 .card_content p {
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 16px;
-    color: #f6f6f6;
-    margin: 8px 0px;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 16px;
+  color: #f6f6f6;
+  margin: 8px 0px;
 }
 
 .card_content .button_rm {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 20px;
-    background-color: #028a0f;
-    color: #fff;
-    font-size: 16px;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    letter-spacing: 1.5px;
-    margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  background-color: #028a0f;
+  color: #fff;
+  font-size: 16px;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
 }
 
 .div3 {
-    width: 325px;
-    height: 425px;
-    display: flex;
-    margin-top: 102px;
-    position: relative;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-    cursor: pointer;
-    overflow: hidden;
+  width: 325px;
+  height: 425px;
+  display: flex;
+  margin-top: 102px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .div3 img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: all 0.4s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease;
 }
 
 .div3:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .card_content2 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(13,14,32,0.77);
-    transform: translateY(100%);
-    transition: 0.4s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(13, 14, 32, 0.77);
+  transform: translateY(100%);
+  transition: 0.4s ease;
 }
 
 .div3:hover .card_content2 {
-    transform: translateY(0%);
+  transform: translateY(0%);
 }
 
-
 .card_content2 h2 {
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size:32px;
-    color: #028a0f
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 32px;
+  color: #028a0f;
 }
 
 .card_content2 p {
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 16px;
-    color: #f6f6f6;
-    margin: 8px 0px;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 16px;
+  color: #f6f6f6;
+  margin: 8px 0px;
 }
 
 .card_content2 .button_rm2 {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 20px;
-    background-color: #028a0f;
-    color: #fff;
-    font-size: 16px;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    letter-spacing: 1.5px;
-    margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  background-color: #028a0f;
+  color: #fff;
+  font-size: 16px;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
 }
 
 .div4 {
-    width: 325px;
-    height: 425px;
-    display: flex;
-    margin-top: 102px;
-    position: relative;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-    cursor: pointer;
-    overflow: hidden;
+  width: 325px;
+  height: 425px;
+  display: flex;
+  margin-top: 102px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .div4 img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transition: all 0.4s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease;
 }
 
 .div4:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .card_content3 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(13,14,32,0.77);
-    transform: translateY(100%);
-    transition: 0.4s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(13, 14, 32, 0.77);
+  transform: translateY(100%);
+  transition: 0.4s ease;
 }
 
 .div4:hover .card_content3 {
-    transform: translateY(0%);
+  transform: translateY(0%);
 }
 
-
 .card_content3 h2 {
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size:32px;
-    color: #028a0f
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 32px;
+  color: #028a0f;
 }
 
 .card_content3 p {
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 16px;
-    color: #f6f6f6;
-    margin: 8px 0px;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 16px;
+  color: #f6f6f6;
+  margin: 8px 0px;
 }
 
 .card_content3 .button_rm3 {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 20px;
-    background-color: #028a0f;
-    color: #fff;
-    font-size: 16px;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    letter-spacing: 1.5px;
-    margin-top: 10px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  background-color: #028a0f;
+  color: #fff;
+  font-size: 16px;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
 }
-
 
 .sec3_maindiv {
-    width: 1200x;
-    height: 800px;
-    margin-top: 100px;
-    display: flex;
+  width: 1200x;
+  height: 800px;
+  margin-top: 100px;
+  display: flex;
 }
-
 
 .background_img_div {
-    position: relative;
-    display: flex;
+  position: relative;
+  display: flex;
 }
 
-
 .bacground_img_div_p {
-    position: absolute;
-    top: 40%;
-    font-size: 56px;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    color: #fff;
-    text-align: center;
-    left: 50%;
-    transform: translateX(-50%);
+  position: absolute;
+  top: 40%;
+  font-size: 56px;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  color: #fff;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .button_review {
-    position: absolute;
-    top: 100%;
-    font-size: 24px;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    text-align: center;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #273A47;
-    border-radius: 30px;
-    letter-spacing: 1px;
+  position: absolute;
+  top: 100%;
+  font-size: 24px;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #273a47;
+  border-radius: 30px;
+  letter-spacing: 1px;
 }
 
 .quote_div {
-    width: 1903px;
-    height: 333px;
-    background: #273A47;
+  width: 1903px;
+  height: 333px;
+  background: #273a47;
 }
 
 .quote {
-    margin: 0 auto;
-    color: #FFF;
-    text-align: center;
-    font-family: "ALK Rounded Mtav Med", sans-serif;;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 119px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 119px;
 }
 
 .quote_author {
-    color: #FFF;
-    text-align: center;
-    font-family: "ALK Rounded Mtav Med", sans-serif;;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 30px;
-    margin-left: 1333px;
+  color: #fff;
+  text-align: center;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 30px;
+  margin-left: 1333px;
 }
 
 footer {
-    width: 1903px;
-    height: 540px;
-    background: #E4E4E4;
-    display: inline-block;
+  width: 1903px;
+  height: 540px;
+  background: #e4e4e4;
+  display: inline-block;
 }
 
 .line1 {
-    margin-left: 44px;
-    padding-top: 35px;
-    display: inline-flex;
+  margin-left: 44px;
+  padding-top: 35px;
+  display: inline-flex;
 }
 
 .line1_1 {
-    padding-bottom: 37px;
-    display: inline-flex;
+  padding-bottom: 37px;
+  display: inline-flex;
 }
 
 .footer_tbcicon {
-    width: 60px;
-    display: inline-block;
+  width: 60px;
+  display: inline-block;
 }
 
 footer .line1 .line1_1 .first_child {
-    display: inline-flex;
-    color: #000;
-    font-family: "ALK Rounded Mtav Med", sans-serif;;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 0px;
-    vertical-align: middle;
+  display: inline-flex;
+  color: #000;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+  vertical-align: middle;
 }
 
 .navigation {
-    color: #000;
-    font-family: "ALK Rounded Mtav Med", sans-serif;;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 footer .navigation ol li {
-    padding-top: 17px;
+  padding-top: 17px;
 }
 
 .footer_icon1 {
-    color: #000;
-    font-family: "ALK Rounded Mtav Med", sans-serif;;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .fa-solid {
-    width: 24px;
-    height: 24px;
-    flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
 }
 
 .footer_phone_number {
-    display: inline-block;
-    color: #000;
-    font-family: "ALK Rounded Mtav Med", sans-serif;;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-right: 29px;
-    padding-top: 32px;
+  display: inline-block;
+  color: #000;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 29px;
+  padding-top: 32px;
 }
 
 .footer_location {
-    display: inline-block;
-    color: #000;
-    font-family: "ALK Rounded Mtav Med", sans-serif;;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 32px;
+  display: inline-block;
+  color: #000;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 32px;
 }
 
 .line1_help {
-    padding-top: 10px;
-    display: inline-flex;
-    flex-direction: column;
-    padding-left: 383px;
+  padding-top: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  padding-left: 383px;
 }
 
 .footer_help {
-    color: #000;
-    font-family: Kaushan Script;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: inline-flex;
-    margin-bottom: 0;
+  color: #000;
+  font-family: Kaushan Script;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  margin-bottom: 0;
 }
 
 .help_line1_line {
-    padding-top: 4.5px;
+  padding-top: 4.5px;
 }
 
 .help_line_nav {
-    color: #000;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .footer_help_line {
-    padding-top: 17px;
+  padding-top: 17px;
 }
 
 .line1_contact {
-    padding-top: 10px;
-    padding-left: 183px;
-    display: inline-flex;
-    flex-direction: column;
+  padding-top: 10px;
+  padding-left: 183px;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .footer_contact_line {
-    color: #000;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 17px;
+  color: #000;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 17px;
 }
 
 .line1_icons {
-    padding-left: 80px;
-    font-size: 30px;
+  padding-left: 80px;
+  font-size: 30px;
 }
 
 .line1_icons_style {
-    padding-left: 26px;
+  padding-left: 26px;
 }
 
 .line2 {
-    padding-left: 54px;
-    display: inline-flex;
+  padding-left: 54px;
+  display: inline-flex;
 }
 
 .form_submit {
-    display: flex;
-    padding-top: 100px;
-    padding-left: 521px;
+  display: flex;
+  padding-top: 100px;
+  padding-left: 521px;
 }
 
 .form_submit input[type="email"] {
-    width: 339px;
-    height: 40px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    border: 1px solid #000;
-    background: #FFF;
-    vertical-align: middle
+  width: 339px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid #000;
+  background: #fff;
+  vertical-align: middle;
 }
 
 .form_submit button[type="submit"] {
-    width: 180px;
-    height: 40px;
-    flex-shrink: 0;
-    border-radius: 12px;
-    background: #273A47;
-    color: #FFF;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    vertical-align: middle;
+  width: 180px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #273a47;
+  color: #fff;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  vertical-align: middle;
 }
 
 .form_submit p {
-    color: #000;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 15px;
+  color: #000;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 15px;
 }
 
 .form_submit ::placeholder {
-    color: #000;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #000;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-
 
 /* aboutus.html styles */
 
-
 .about_us_img_div {
-    position: relative;
-    width: 1150px;
-    height: 700px;
-    overflow: hidden;
-    margin-bottom: 100px;
+  position: relative;
+  width: 1150px;
+  height: 700px;
+  overflow: hidden;
+  margin-bottom: 100px;
 }
 
 .about_us_img_div:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.about_us_img  {
-    width: 1150px;
-    height: 700px;
-    position: absolute;
-    transition: all 0.4s ease;
-    
+.about_us_img {
+  width: 1150px;
+  height: 700px;
+  position: absolute;
+  transition: all 0.4s ease;
 }
 
 .about_us_h1 {
-    color: #FFF;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: inline-flex;
-    text-align: center;
-    justify-content: center; 
-    position: absolute;
-    width: 1150px;
-    transform:translateY(0%);
-    transition: 0.4s ease;
+  color: #fff;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  width: 1150px;
+  transform: translateY(0%);
+  transition: 0.4s ease;
 }
 
 .about_us_img_div:hover .about_us_h1 {
-    transform:translateY(-100%);
+  transform: translateY(-100%);
 }
 
 .about_us_p_div {
-    background: rgba(0, 0, 0, 0.50);  
-    position: absolute;
-    height: 700px;
-    width: 767px;
-    transform: translateX(-100%);
-    transition: 0.4s ease;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 700px;
+  width: 767px;
+  transform: translateX(-100%);
+  transition: 0.4s ease;
 }
 
 .about_us_img_div:hover .about_us_p_div {
-    transform: translateX(0%);
+  transform: translateX(0%);
 }
 
 .about_us_p {
-    color: #FFF;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: inline-flex;
-    text-align: center;
-    align-items: center;
-    height: 700px;
+  color: #fff;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  height: 700px;
 }
 
 .our_story_img_div {
-    position: relative;
-    width: 1500px;
-    height: 800px; 
+  position: relative;
+  width: 1500px;
+  height: 800px;
 }
 
 .our_story_img {
-    width: 1500px;
-    height: 800px;  
-    position: absolute; 
-    animation: fadeInPic 2s;
+  width: 1500px;
+  height: 800px;
+  position: absolute;
+  animation: fadeInPic 2s;
 }
 
 @keyframes fadeInPic {
-    0% {
-        transform: scale(0.9);
-    }
+  0% {
+    transform: scale(0.9);
+  }
 
-    100% {
-        transform: scale(1);
-    }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .our_story_img_h1 {
-    position: absolute; 
-    width: 1500px;
-    height: 800px;
-    flex-shrink: 0;
-    color: #FFF;
-    text-align: center;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 75px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    animation: fadeIn 4s;
+  position: absolute;
+  width: 1500px;
+  height: 800px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 4s;
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+  0% {
+    opacity: 0;
   }
+  100% {
+    opacity: 1;
+  }
+}
 
 .title_line {
-    width: 350px;
-    height: 1px;
-    flex-shrink: 0;
-    stroke-width: 1px;
-    stroke: #000;
-    display: inline-flex;
+  width: 350px;
+  height: 1px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #000;
+  display: inline-flex;
 }
 
 .three_circle_header_title {
-    color: #000;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: inline-flex;
-    vertical-align: middle;
+  color: #000;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  vertical-align: middle;
 }
 
 .three_circle {
-    display: inline-flex;
-    justify-content: space-around;
-    width: 1903px;
-    margin-bottom: 200px;
+  display: inline-flex;
+  justify-content: space-around;
+  width: 1903px;
+  margin-bottom: 200px;
 }
 
 .first_circle_div {
-    position: relative;
-    width: 192px;
-    height: 192px;
+  position: relative;
+  width: 192px;
+  height: 192px;
 }
 
 .first_circle {
-    border-radius: 50%;
-    display: inline-block;
-    width: 192px;
-    height: 192px;
-    flex-shrink: 0;
-    background-color: #273A47;
-    position: absolute;
-    margin-left: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  width: 192px;
+  height: 192px;
+  flex-shrink: 0;
+  background-color: #273a47;
+  position: absolute;
+  margin-left: 40px;
 }
 
 .first_circle_h1 {
-    position: absolute;
-    color: #FFF;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 192px;
-    height: 192px;
-    border-radius: 50%;
-    margin-left: 40px;
+  position: absolute;
+  color: #fff;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 192px;
+  height: 192px;
+  border-radius: 50%;
+  margin-left: 40px;
 }
 
 .second_circle_div {
-    position: relative;
-    width: 192px;
-    height: 192px;
+  position: relative;
+  width: 192px;
+  height: 192px;
 }
 
 .second_circle {
-    border-radius: 50%;
-    display: inline-block;
-    width: 192px;
-    height: 192px;
-    flex-shrink: 0;
-    background-color: #273A47;
-    position: absolute;
-    margin-left: 40px;
-
+  border-radius: 50%;
+  display: inline-block;
+  width: 192px;
+  height: 192px;
+  flex-shrink: 0;
+  background-color: #273a47;
+  position: absolute;
+  margin-left: 40px;
 }
 
 .second_circle_h1 {
-    position: absolute;
-    color: #FFF;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 192px;
-    height: 192px;
-    border-radius: 50%;
-    margin-left: 40px;
-
+  position: absolute;
+  color: #fff;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 192px;
+  height: 192px;
+  border-radius: 50%;
+  margin-left: 40px;
 }
 
 .third_circle_div {
-    position: relative;
-    width: 192px;
-    height: 192px;
+  position: relative;
+  width: 192px;
+  height: 192px;
 }
 
 .third_circle {
-    border-radius: 50%;
-    display: inline-block;
-    width: 192px;
-    height: 192px;
-    flex-shrink: 0;
-    background-color: #273A47;
-    position: absolute;
-    margin-left: 40px;
-
+  border-radius: 50%;
+  display: inline-block;
+  width: 192px;
+  height: 192px;
+  flex-shrink: 0;
+  background-color: #273a47;
+  position: absolute;
+  margin-left: 40px;
 }
 
 .third_circle_h1 {
-    position: absolute;
-    color: #FFF;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 29px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 192px;
-    height: 192px;
-    border-radius: 50%;
-    margin-left: 40px;
-
+  position: absolute;
+  color: #fff;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 192px;
+  height: 192px;
+  border-radius: 50%;
+  margin-left: 40px;
 }
 
 .first_circle_p_div {
-    width: 300px;
-    text-align: center;
-
+  width: 300px;
+  text-align: center;
 }
 
 .first_circle_p {
-    margin-top: 211px;
-    color: #000;
-    text-align: center;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: center;
-    width: 300px;
-
+  margin-top: 211px;
+  color: #000;
+  text-align: center;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  width: 300px;
 }
 
 .second_circle_p {
-    margin-top: 211px;
-    color: #000;
-    text-align: center;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 300px;
+  margin-top: 211px;
+  color: #000;
+  text-align: center;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 300px;
 }
 
 .third_circle_p {
-    margin-top: 211px;
-    color: #000;
-    text-align: center;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 300px;
+  margin-top: 211px;
+  color: #000;
+  text-align: center;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 300px;
 }
-
 
 /* product.html styles */
 
 .shop_items_header_h1 {
-    display: inline-flex;
-    justify-content: center;
-    color: #000;
+  display: inline-flex;
+  justify-content: center;
+  color: #000;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nist1 {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;
+  padding-top: 0px;
+}
+
+.products_section {
+  padding-top: 40px;
+}
+
+.products_section1 {
+  padding-top: 30px;
+}
+
+.products_image_div {
+  position: relative;
+  width: 1903px;
+  height: 800px;
+}
+
+.products_image {
+  position: absolute;
+  width: 1903px;
+  height: 800px;
+  animation: fadeInPic 2s;
+}
+
+@keyframes fadeInPic {
+  0% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.products_image_h1 {
+  position: absolute;
+  width: 1903px;
+  height: 800px;
+  color: #fff;
+  text-align: center;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* review.html styles */
+
+.review-container {
+  width: 1903px;
+  background: rgb(33, 32, 50);
+  color: #fff;
+  margin: 32px;
+  box-shadow: 1px 3px 2px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+}
+
+.review_h2 {
+  margin-bottom: 3rem;
+}
+
+.input-field {
+  background: rgb(38, 37, 55);
+  width: 100%;
+  border: 1px solid #6f6c7c;
+  padding: 14px;
+  border-radius: 5px;
+}
+
+.input-field input {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: #8c8c9f;
+  width: calc(100% - 51px);
+}
+
+.input-field i,
+.input-field input::placeholder {
+  color: #6f6c7c;
+}
+
+.suggest {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.suggest span {
+  background: #1f1e2f;
+  padding: 11px 21px;
+  border-radius: 5px;
+  font-size: 11px;
+  color: #8c8c9f;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.suggest span:hover,
+.suggest span:active {
+  background: #8383ed;
+  color: #fff;
+}
+
+.cards {
+  margin-top: 40px;
+}
+
+.cards .card {
+  width: 100%;
+  margin-bottom: 11px;
+  background: rgb(45, 43, 64);
+  border-radius: 5px;
+}
+
+.card > * {
+  padding: 16px 19px;
+}
+
+.card-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  background: purple;
+  border-radius: 50%;
+  outline: none;
+}
+
+.name .one {
+  background: orange;
+}
+
+.name,
+.name .img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.name .img {
+  justify-content: center;
+}
+
+.rate i {
+  color: yellow;
+}
+
+.card-content {
+  margin: 0;
+  padding-top: 0;
+}
+
+.card-content p {
+  font-size: 13px;
+  color: rgb(152, 152, 165);
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+}
+
+.card-action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-action span {
+  font-size: 13px;
+  color: RGB(101, 101, 114);
+}
+
+.card-action .btn {
+  padding: 5px 11px;
+  background: transparent;
+  border: 1px solid #000;
+  border-radius: 2px;
+  color: #8c8c9f;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+  body {
+    padding: 0px;
+    margin: 0;
+  }
+
+  .review-container {
+    padding: 0;
+    margin: 16px 0;
+    width: 75%;
+  }
+}
+
+/* contact.html styles */
+
+.form {
+  width: 340px;
+  height: 440px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  position: relative;
+  margin-bottom: 130px;
+}
+.contact_us_h2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c;
+}
+.input_name, .input_email, .input_message{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+
+.input_name::placeholder, .input_email::placeholder, .input_message::placeholder {
+    color: #0000005d;
     font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 45px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.nist1 {
-    width: 1200px;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 150px;
-    padding-top: 0px;
+.input_name:focus, .input_email:focus .input_message:focus {
+  border-bottom: 2px solid #78788c;
 }
-
-.products_section {
-    padding-top: 40px;
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a;
 }
-
-.products_section1 {
-    padding-top: 30px;
+.message_send {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "ALK Rounded Mtav Med", sans-serif;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all 0.3s;
 }
-
-.products_image_div {
-    position: relative;
-    width: 1903px;
-    height: 800px;
+.message_send:hover {
+  background: #78788c;
+  color: #fff;
 }
-
-.products_image {
-    position: absolute;
-    width: 1903px;
-    height: 800px;
-    animation: fadeInPic 2s;
+.contact_info_div {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  background: #50505a;
+  color: #fff;
+  width: 320px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000;
 }
-
-@keyframes fadeInPic {
-    0% {
-        transform: scale(0.9);
-    }
-
-    100% {
-        transform: scale(1);
-    }
-}
-
-
-.products_image_h1 {
-    position: absolute;
-    width: 1903px;
-    height: 800px;
-    color: #FFF;
-    text-align: center;
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-    font-size: 75px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    animation: fadeIn 4s;
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-
-/* review.html styles */
-
-
-.review-container {
-    width: 1903px;
-    background: rgb(33, 32, 50);
-    color: #fff;
-    margin: 32px;
-    box-shadow: 1px 3px 2px rgba(0, 0, 0, .2);
-    padding: 40px;
-}
-
-.review_h2 {
-    margin-bottom: 3rem;
-}
-
-.input-field {
-    background: rgb(38, 37, 55);
-    width: 100%;
-    border: 1px solid #6F6C7C;
-    padding: 14px;
-    border-radius: 5px;
-}
-
-.input-field input {
-    border: none;
-    background: transparent;
-    outline: none;
-    color: #8C8C9F;
-    width: calc(100% - 51px);
-}
-
-.input-field i,
-.input-field input::placeholder {
-    color: #6F6C7C;
-}
-
-.suggest {
-    margin-top: 24px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.suggest span {
-    background: #1F1E2F;
-    padding: 11px 21px;
-    border-radius: 5px;
-    font-size: 11px;
-    color: #8C8C9F;
-    text-transform: capitalize;
-    cursor: pointer;
-}
-
-.suggest span:hover,
-.suggest span:active {
-    background: #8383ED;
-    color: #fff;
-}
-
-.cards {
-    margin-top: 40px;
-}
-
-.cards .card {
-    width: 100%;
-    margin-bottom: 11px;
-    background: rgb(45, 43, 64);
-    border-radius: 5px;
-}
-
-.card>* {
-    padding: 16px 19px;
-}
-
-.card-top {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-}
-
-.img {
-    width: 50px;
-    height: 50px;
-    background: purple;
-    border-radius: 50%;
-    outline: none;
-}
-
-.name .one {
-    background: orange;
-}
-
-.name,
-.name .img {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.name .img {
-    justify-content: center;
-}
-
-.rate i {
-    color: yellow;
-}
-
-.card-content {
-    margin: 0;
-    padding-top: 0;
-}
-
-.card-content p {
-    font-size: 13px;
-    color: rgb(152, 152, 165);
-    font-family: "ALK Rounded Mtav Med", sans-serif;
-}
-
-.card-action {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.card-action span {
-    font-size: 13px;
-    color: RGB(101, 101, 114);
-}
-
-.card-action .btn {
-    padding: 5px 11px;
-    background: transparent;
-    border: 1px solid #000;
-    border-radius: 2px;
-    color: #8C8C9F;
-    cursor: pointer;
-    transition: .2s ease-in-out;
-}
-
-.btn:hover {
-    background: #000;
-    color: #fff;
-}
-
-@media screen and (max-width:750px) {
-    body {
-        padding: 0px;
-        margin: 0;
-    }
-
-    .review-container {
-            padding:0;
-        margin: 16px 0;
-        width: 75%;
-    }
+.fa-phone, .fa-envelope-o {
+  margin: 0 5px 0 15px;
 }
