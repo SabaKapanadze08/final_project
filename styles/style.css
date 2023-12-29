@@ -671,7 +671,18 @@ footer .navigation ol li {
 .our_story_img {
     width: 1500px;
     height: 800px;  
-    position: absolute;  
+    position: absolute; 
+    animation: fadeInPic 2s;
+}
+
+@keyframes fadeInPic {
+    0% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .our_story_img_h1 {
@@ -697,3 +708,179 @@ footer .navigation ol li {
     100% { opacity: 1; }
   }
 
+.title_line {
+    width: 350px;
+    height: 1px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #000;
+    display: inline-flex;
+}
+
+.three_circle_header_title {
+    color: #000;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.three_circle {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 1903px;
+    margin-bottom: 200px;
+}
+
+.first_circle_div {
+    position: relative;
+    width: 192px;
+    height: 192px;
+}
+
+.first_circle {
+    border-radius: 50%;
+    display: inline-block;
+    width: 192px;
+    height: 192px;
+    flex-shrink: 0;
+    background-color: #273A47;
+    position: absolute;
+    margin-left: 40px;
+}
+
+.first_circle_h1 {
+    position: absolute;
+    color: #FFF;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.second_circle_div {
+    position: relative;
+    width: 192px;
+    height: 192px;
+}
+
+.second_circle {
+    border-radius: 50%;
+    display: inline-block;
+    width: 192px;
+    height: 192px;
+    flex-shrink: 0;
+    background-color: #273A47;
+    position: absolute;
+    margin-left: 40px;
+
+}
+
+.second_circle_h1 {
+    position: absolute;
+    color: #FFF;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    margin-left: 40px;
+
+}
+
+.third_circle_div {
+    position: relative;
+    width: 192px;
+    height: 192px;
+}
+
+.third_circle {
+    border-radius: 50%;
+    display: inline-block;
+    width: 192px;
+    height: 192px;
+    flex-shrink: 0;
+    background-color: #273A47;
+    position: absolute;
+    margin-left: 40px;
+
+}
+
+.third_circle_h1 {
+    position: absolute;
+    color: #FFF;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    margin-left: 40px;
+
+}
+
+.first_circle_p_div {
+    width: 300px;
+    text-align: center;
+
+}
+
+.first_circle_p {
+    margin-top: 211px;
+    color: #000;
+    text-align: center;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    width: 300px;
+
+}
+
+.second_circle_p {
+    margin-top: 211px;
+    color: #000;
+    text-align: center;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 300px;
+}
+
+.third_circle_p {
+    margin-top: 211px;
+    color: #000;
+    text-align: center;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 300px;
+}
