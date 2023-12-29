@@ -13,10 +13,20 @@
   align-items: center;
 }
 
+.header_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
 .tbclogo {
-  display: flex;
   width: 130px;
   height: 50px;
+}
+
+.burger_menu_icon {
+    display: none !important; 
 }
 
 .nav1 {
@@ -55,6 +65,10 @@ ul {
   display: flex;
   align-items: center;
   margin: 0;
+}
+
+.bootstrap_section {
+    width: 1903px;
 }
 
 .sec2_maindiv {
@@ -324,7 +338,7 @@ ul {
   display: flex;
 }
 
-.bacground_img_div_p {
+.background_img_div_p {
   position: absolute;
   top: 40%;
   font-size: 56px;

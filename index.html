@@ -7,17 +7,22 @@
     <link rel="SHORTCUT ICON" href="https://www.tbcbank.ge/tbcpw.portal-public-theme/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="styles/reset.css" />
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/media.css" />
     <link href="https://fonts.googleapis.com/css2?family=Judson&family=Roboto:wght@100;400&display=swap" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Judson&family=Kaushan+Script&family=Nanum+Myeongjo&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Judson&family=Nanum+Myeongjo&family=Roboto:wght@100;400&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdn.web-fonts.ge/fonts/alk-rounded-mtav-med/css/alk-rounded-mtav-med.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/media.css" />
   </head>
   <body>
     <header class="container header_container">
-      <div class="div1">
+      <div class="header_logo">
         <a href="http://tbceducation.ge"><img class="tbclogo" src="images/tbclogo.png"/></a>
+      </div>
+      <div class="div1">
+        <i class="fa-solid fa-list burger_menu_icon"></i>
         <nav>
           <ul>
             <li class="nav1 active"><a href="#">მთავარი</a></li>
@@ -37,7 +42,7 @@
       </div>
     </header>
 
-    <section>
+    <section class="bootstrap_section">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -125,8 +130,8 @@
     <section>
       <div class="sec3_maindiv">
         <div class="background_img_div">
-          <img style="object-fit:cover; width: 1903px; height: 800px;" src="images/background_image.jpg">
-          <div class="bacground_img_div_p">
+          <img class="background_img_index" style="object-fit:cover; width: 1903px; height: 800px;" src="images/background_image.jpg">
+          <div class="background_img_div_p">
             <p>ჩვენ გვაქვს საუკეთესო შეფასებები საქართველოს მასშტაბით</p>
             <a href="pages/review.html" class="button_review">წაიკითხეთ შეფასებები</a>
           </div>
