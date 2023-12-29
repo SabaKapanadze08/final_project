@@ -661,3 +661,39 @@ footer .navigation ol li {
     align-items: center;
     height: 700px;
 }
+
+.our_story_img_div {
+    position: relative;
+    width: 1500px;
+    height: 800px; 
+}
+
+.our_story_img {
+    width: 1500px;
+    height: 800px;  
+    position: absolute;  
+}
+
+.our_story_img_h1 {
+    position: absolute; 
+    width: 1500px;
+    height: 800px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: "ALK Rounded Mtav Med", sans-serif;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
