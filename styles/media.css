@@ -4,7 +4,6 @@
     }
 
     .header_container {
-        width: 100%;
         max-width: 850px;
 
     }
@@ -19,27 +18,26 @@
     }
 
     .bootstrap_section {
-        width: 850px;
-        object-fit: fill;
+        max-width: 850px;
     }
 
     .carousel  .carousel-inner  .carousel-item  img{
-        width: 850px;
+        max-width: 850px;
     }
 
     .nist {
-        width: 850px;
+        min-width: 850px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
     .sec3_maindiv {
-        width: 850px;
+        max-width: 850px;
     }
 
     .background_img_index {
-        width: 850px !important;
+        max-width: 850px !important;
     }
 
     .background_img_div_p {
@@ -47,11 +45,11 @@
     }
 
     .quote_div {
-        width: 850px;
+        max-width: 850px;
     }
 
     footer {
-        width: 850px;
+        max-width: 850px;
         height: 800px;
     }
 
